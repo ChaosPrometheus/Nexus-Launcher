@@ -39,14 +39,18 @@ pip install customtkinter minecraft-launcher-lib pillow
 
 Версии скачиваются в папку лаунчера.
 
-Папка игры (--gameDir) отвечает только за сейвы, моды и конфиги.Структура данныхПосле первого запуска рядом с main.py появится папка:textNexusData/
+```bash
+
+Папка игры (--gameDir) отвечает только за сейвы, моды и конфиги.
+Структура данныхПосле первого запуска рядом с main.py появится папка:
+textNexusData/
 ├── versions/          # Версии Minecraft (Vanilla / Forge / Fabric / NeoForge)
 ├── libraries/         # Библиотеки
 ├── assets/            # Ресурсы игры
 ├── instances/         # Папки сборок по умолчанию
 ├── installations.json # Список профилей
 └── settings.json      # Ник и настройкиСкриншотыТребования
-
+```
 Windows 10/11 (также можно запускать на Linux/macOS)
 
 Python 3.10+
